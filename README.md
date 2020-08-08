@@ -19,5 +19,9 @@ This process should take only a few seconds.
 git clone https://github.com/proteriax/clavier-cli.git
 cd clavier-cli
 make all
-cp clavier /usr/local/bin
 ```
+
+## Installation
+If you don’t have the Swift compiler or you prefer to use the pre-built binary,
+you can grab the released binary available on the [right side of the GitHub page](https://github.com/proteriax/clavier-cli/releases)
+and place it under `/usr/local/bin`.
