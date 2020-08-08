@@ -11,9 +11,10 @@ func main(args: [String]) {
   let sources = candidates.filter({ $0.isValidCandidate })
   let names = sources.map({ $0.name })
     
-  guard let lang = args.last else {
-    error("No input method provided.")
-    exit(1)
+  guard let lang = args.dropFirst().first else {
+    let current = TISCopyCurrentKeyboardLayoutInputSource().takeRetainedValue()
+    print(current.name)
+    exit(0)
   }
 
   if let index = names.firstIndex(of: lang) {

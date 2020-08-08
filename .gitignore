@@ -27,3 +27,6 @@ DerivedData/
 
 ## Gcc Patch
 /*.gcno
+
+## Built file
+/clavier

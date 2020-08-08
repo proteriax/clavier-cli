@@ -40,10 +40,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC7AEC1124DEF4CD004AE91B /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				CC8117572337516200C71B75 /* TISInputSourceExtension.swift */,
+				CC81174E233750E100C71B75 /* main.swift */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
 		CC811742233750E000C71B75 = {
 			isa = PBXGroup;
 			children = (
-				CC81174D233750E100C71B75 /* clavier */,
+				CC7AEC1124DEF4CD004AE91B /* lib */,
 				CC81174C233750E100C71B75 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,15 +63,6 @@
 				CC81174B233750E100C71B75 /* clavier */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		CC81174D233750E100C71B75 /* clavier */ = {
-			isa = PBXGroup;
-			children = (
-				CC8117572337516200C71B75 /* TISInputSourceExtension.swift */,
-				CC81174E233750E100C71B75 /* main.swift */,
-			);
-			path = clavier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,7 +81,7 @@
 			dependencies = (
 			);
 			name = clavier;
-			productName = "clavier";
+			productName = clavier;
 			productReference = CC81174B233750E100C71B75 /* clavier */;
 			productType = "com.apple.product-type.tool";
 		};
